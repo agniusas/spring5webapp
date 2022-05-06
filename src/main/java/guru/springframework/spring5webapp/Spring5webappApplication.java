@@ -1,5 +1,6 @@
 package guru.springframework.spring5webapp;
 
+import guru.springframework.spring5webapp.model.Book;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -8,5 +9,8 @@ public class Spring5webappApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(Spring5webappApplication.class, args);
+
+		System.out.println("ssssassss");
+
 	}
 }
